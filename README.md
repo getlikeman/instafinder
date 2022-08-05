@@ -6,7 +6,7 @@ first install and run [instagrapi-rest](https://github.com/adw0rd/instagrapi-res
 
 `docker build -t instagrapi-rest`
 
-`docker run -p 8000:8000 instagrapi-rest`
+`docker run -p 8080:8080 instagrapi-rest`
 
 then download the project and install with 
 
