@@ -1,0 +1,31 @@
+{
+  "name": "instafinder",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "backend": "nodemon backend/back.js ",
+    "proxy": "nodemon backend/proxy.js"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "body-parser": "^1.19.2",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "cors-anywhere": "^0.4.4",
+    "express": "^4.17.3",
+    "express-http-proxy": "^1.6.3",
+    "instagrapi": "^4.2.1",
+    "nodemon": "^2.0.15",
+    "swiper": "^8.0.7",
+    "vue": "^3.2.25",
+    "vue-awesome-swiper": "^5.0.1",
+    "vue-router": "^4.0.14"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.2.0",
+    "vite": "^2.8.0"
+  }
+}
