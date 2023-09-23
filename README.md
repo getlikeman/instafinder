@@ -14,8 +14,8 @@ then download the project and install with
 
 in file **back.js** place into variables your instagram login and password .then run with 
 
-`npm dev`
+`npm run dev`
 
-`npm backend`
+`npm  run backend`
 
-`npm proxy`
+`npm run proxy`
